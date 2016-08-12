@@ -89,7 +89,7 @@ a{
 .container{
 	margin-top: 20px;
 	width: 100%;
-	background-color:#AAE0F2;
+	/*background-color:#AAE0F2;*/
 }
 
 .Encabezado{
@@ -97,7 +97,7 @@ a{
 	flex-direction: column;
 	width: 100%;
 	height: 150px;
-	background-color:#B3F5BA;
+	/*background-color:#B3F5BA;*/
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -108,19 +108,19 @@ a{
 	flex-direction: column;
 	width: 100%;
 	height: 100px;
-	background-color:#F5B3EE;
+	/*background-color:#F5B3EE;*/
 	position: relative;
 	
 }
 .nombre{
 	width: 100%;
 	height: 50px;
-	background-color:#F5E9B3;
+	/*background-color:#F5E9B3;*/
 }
 .bajada{
 	width: 100%;
 	height: 60px;
-	background-color:#BEC9F7;
+	/*background-color:#BEC9F7;*/
 }
 
 
@@ -129,7 +129,7 @@ a{
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	background-color: red;
+	/*background-color: red;*/
     justify-content: center;
     }
 
@@ -158,7 +158,7 @@ a{
 .Expo{
 	width: 160px;
 	height: 50px;
-	background-color:#FCD8CC;
+	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
 }
@@ -166,28 +166,28 @@ a{
 .Editorial{
 	width: 160px;
 	height: 50px;
-	background-color:#FCD8CC;
+	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
 }
 .Interacción{
 	width: 160px;
 	height: 50px;
-	background-color:#FCD8CC;
+	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
 }
 .Investigación{
 	width: 160px;
 	height: 50px;
-	background-color:#FCD8CC;
+	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
 }
 .Perfil{
 	width: 160px;
 	height: 50px;
-	background-color:#FCD8CC;
+	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
 }
