@@ -1,6 +1,66 @@
 html{
-	margin:100px;
 }
+/* Resetear navegador*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: normal;
+     font-style: normal;
+     font-size: 100%;
+     font-family: inherit;
+     vertical-align: baseline
+}
+
+body {
+     line-height: 1
+}
+
+:focus {
+     outline: 0
+}
+
+ol, ul {
+     list-style: none
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: ""
+}
+
+blockquote, q {
+     quotes: "" ""
+}
+
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+
+hr {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     color: #000;
+     background-color: #000;
+     height: 1px
+}
+
+/* Fin de reseteo navegador*/ 
 
 
 h1{
@@ -14,49 +74,135 @@ p{
 	text-align: center;
 }
 
+
 nav ul{
     list-style:none;
     margin:0 10px 0 10px;
     padding:0;
 
 }
+a{
+	color:#999;
+}
 
 
-nav ul li{
-    /*Bordes redondeados*/
-    -webkit-border-radius:5px;/*Chrome y Safari*/
-    -moz-border-radius:5px;/*Firefox*/
-    -o-border-radius:5px;/*Opera*/
-    border-radius:5px;/*Estandar por defecto*/
-    float:left;
+.container{
+	margin-top: 20px;
+	width: 100%;
+	background-color:#AAE0F2;
+}
+
+.Encabezado{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 150px;
+	background-color:#B3F5BA;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.titulos{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100px;
+	background-color:#F5B3EE;
+	position: relative;
+	
+}
+.nombre{
+	width: 100%;
+	height: 50px;
+	background-color:#F5E9B3;
+}
+.bajada{
+	width: 100%;
+	height: 60px;
+	background-color:#BEC9F7;
+}
+
+
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: red;
+    justify-content: center;
+    }
+
+.menu p{
+ 
+    float:center;
     font-family: 'Raleway', sans-serif;
     font-size:14px;
     font-weight:lighter;
-    margin-right:10px;
     text-align:center;
-    /*Sombras para texto, los mismos parametros que box-shadow*/
     text-shadow: 0px 1px 0px #FFF;
-}
-
-nav ul li a{
     color:#999;
-    display:block;
+    
     padding:10px;
     text-decoration:none;
-    /*Transiciones*/
-    -webkit-transition: 0.4s linear all;
-    -moz-transition: 0.4s linear all;
-    -o-transition: 0.4s linear all;
-    transition: 0.4s linear all;
+
+  
 }
 
-nav ul li a:hover {
+.menu a:hover { 
     color:#000;
+    
 }
 
-div{
-	position: absolute;
-	left:25%;
-	top:35%; 
-	letter-spacing: 2px
+
+.Expo{
+	width: 160px;
+	height: 50px;
+	background-color:#FCD8CC;
+	float: left;
+	margin-right: 0.6%;
 }
+
+.Editorial{
+	width: 160px;
+	height: 50px;
+	background-color:#FCD8CC;
+	float: left;
+	margin-right: 0.6%;
+}
+.Interacción{
+	width: 160px;
+	height: 50px;
+	background-color:#FCD8CC;
+	float: left;
+	margin-right: 0.6%;
+}
+.Investigación{
+	width: 160px;
+	height: 50px;
+	background-color:#FCD8CC;
+	float: left;
+	margin-right: 0.6%;
+}
+.Perfil{
+	width: 160px;
+	height: 50px;
+	background-color:#FCD8CC;
+	float: left;
+	margin-right: 0.6%;
+}
+
+.foto{
+	width: 100%;
+	height: 600px;
+	background: url("img/fotofondo.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+}
+
+
+
+
