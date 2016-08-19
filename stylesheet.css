@@ -64,13 +64,13 @@ hr {
 
 
 h1{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Neuton', cursive;
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 p{
-	font-family: 'Droid Sans Mono', monospace;
+	font-family: 'Lato', monospace;
 	text-align: center;
 }
 
@@ -120,6 +120,8 @@ a{
 .bajada{
 	width: 100%;
 	height: 60px;
+	color:#999;
+	letter-spacing: 1px;
 	/*background-color:#BEC9F7;*/
 }
 
@@ -156,40 +158,45 @@ a{
 
 
 .Expo{
-	width: 160px;
+	width: 120px;
 	height: 50px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 
 .Editorial{
-	width: 160px;
+	width: 100px;
 	height: 50px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 .Interacción{
-	width: 160px;
+	width: 130px;
 	height: 50px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 .Investigación{
-	width: 160px;
+	width: 140px;
 	height: 50px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 .Perfil{
-	width: 160px;
+	width: 150px;
 	height: 50px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 
 .foto{
