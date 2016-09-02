@@ -146,6 +146,7 @@ h1{
 	float: left;
 	margin-right: 0.6%;
 	color: #DCDCDC;
+	letter-spacing: 2px;
 }
 .Editorial{
 	width: 100px;
@@ -153,29 +154,33 @@ h1{
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 
 .Interacción{
-	width: 110px;
-	height: 40px;
-	/*background-color:#FCD8CC;*/
-	float: left;
-	margin-right: 0.6%;
-
-}
-.Investigación{
 	width: 130px;
 	height: 40px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
+
 }
-.Perfil{
-	width: 120px;
+.Investigación{
+	width: 150px;
 	height: 40px;
 	/*background-color:#FCD8CC;*/
 	float: left;
 	margin-right: 0.6%;
+	letter-spacing: 2px;
+}
+.Perfil{
+	width: 150px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
 }
 h2{
 	font-family: 'Lato'; 
