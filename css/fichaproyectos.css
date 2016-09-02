@@ -79,21 +79,31 @@ hr {
 
 }
 
+.Encabezado{
+     margin-bottom: 30px;
+}
+
 .logo{
      /*background-color: #F2F59D;*/
      width: 200px;
      height: 50px;
-     padding-left: 20px;
+     margin-left: 14%;
+    
 }
 
 .logo h1{
      font-size: 25px;
      font-family: 'Neuton';
 }
-.barra{
-     width: 70%;
-     height: 250px;
-     /*background-color:#53FCB6;*/
+.barramenu{
+     width: 100%;
+     height: 70px;
+     /*background-color:blue;*/
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+     
 }
 .bajada{
      /*background-color: #53FCB6;*/
@@ -108,12 +118,11 @@ hr {
 .menu {
      display: flex;
      flex-direction: row;
-     width: 100%;
+     width: 50%;
      height: 50px;
      /*background-color: red;*/
     justify-content: flex-end;
-    align-self: flex-end;
-    padding-right: 15px;
+    margin-right: 5%;
     }
 
 .menu p{
@@ -122,9 +131,9 @@ hr {
     font-family: 'Raleway', sans-serif;
     font-size:14px;
     font-weight:lighter;
-    text-align:right;
+    text-align:center;
     text-shadow: 0px 1px 0px #FFF;
-    color: #999;
+    color: #00000;
     
     padding:10px;
     text-decoration:none;
@@ -169,21 +178,103 @@ hr {
      margin-right: 0.6%;
 }
 .Perfil{
-     width: 120px;
+     width: 150px;
      height: 40px;
      /*background-color:#FCD8CC;*/
      float: left;
      margin-right: 0.6%;
+
 }
 
 .titulo{
      width: 90%;
      height: 60px;
-    /* background-color: green;*/
+    /*background-color: #FFCBBA;*/
      display: flex;
 
 
 }
+
+
+
+.Omegacubix{
+     width: 100%;
+     height: 780px;
+     padding-left:0px;
+      -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+   justify-content: center;
+   /*background-color: #BAEEFF;*/
+}
+
+/*.titulo p {
+     float: left;
+     display: flex;
+     font-family: 'Neuton';
+}*/
+
+.Contenidoficha{
+     width: 100%;
+     height: 420px;
+     /*background-color: red;*/
+     display: flex;
+     padding-left:0px;
+     justify-content: space-around;
+
+}
+
+.primerafoto{
+      width: 100%;
+     height: 780px;
+     background:url("../img/Omegacubix01.jpg");
+      -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+   justify-content: center;
+  background-color: yellow;
+}
+
+.titulo2{
+     /*background-color: #CCFFBA;*/
+     width: 100%;
+     height: 70px;
+     display: flex;
+     float: left;
+     margin-top: 30px;
+}
+.Descripcionproyecto{
+    /* background-color: #CCFFBA;*/
+     width: 100%;
+     height: 100px;
+     display: flex;
+     float: left;
+}
+
+.Descripcionproyecto p{
+     font-size: 45px;
+     font-family: 'Lato';
+     letter-spacing: 1px;
+     line-height: 50px;
+}
+.parrafodescripción1{
+     width: 100%;
+     height: 200px;
+     /*background-color: #EDBAFF;*/
+     display: flex;
+     float:right;
+     padding-top: 0px;
+     padding-left:0px;
+     padding-right:0px;
+     padding-bottom:0px;
+}
+
 
 .foto1{
      width: 35%;
@@ -196,82 +287,7 @@ hr {
    float: left;
    display: flex;
 
-}
 
-.Omegacubix{
-     width: 100%;
-     height: 580px;
-     padding-left: 20px;
-      -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   float: left;
-   display: flex;
-   justify-content: center;
-   /*background-color: blue;*/
-}
-
-/*.titulo p {
-     float: left;
-     display: flex;
-     font-family: 'Neuton';
-}*/
-
-.Contenidoficha{
-     width: 90%;
-     height: 420px;
-     /*background-color: red;*/
-     display: flex;
-     padding-left: 170px;
-
-}
-
-.primerafoto{
-      width: 75%;
-     height: 580px;
-     background:url("../img/Omegacubix01.jpg");
-     padding-left: 20px;
-      -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   float: left;
-   display: flex;
-   justify-content: center;
-  /* background-color: yellow;*/
-}
-
-.titulo2{
-     /*background-color: purple;*/
-     width: 90%;
-     height: 70px;
-     display: flex;
-     float: left;
-}
-.Descripcionproyecto{
-     padding-left: 170px;
-    /* background-color: orange;*/
-     width: 90%;
-     height: 100px;
-     display: flex;
-     float: left;
-}
-
-.Descripcionproyecto{
-     font-size: 45px;
-     font-family: 'Neuton';
-     letter-spacing: 1px;
-}
-.parrafodescripción1{
-     width: 100%;
-    /* background-color: yellow;*/
-     display: flex;
-     float:right;
-     padding-top: 20px;
-     padding-left: 45px;
-     padding-right: 45px;
-     padding-bottom: 20px;
 }
 
 .foto2{
@@ -289,30 +305,32 @@ hr {
 
 .titulo h2{
      font-size: 45px;
-     font-family: 'Neuton';
+     font-family: 'Lato';
      letter-spacing:1px;
 }
 .titulo{
-     padding-left: 178px;
+     padding-left: 0px;
+     width: 100%;
 }
 .titulo2 p{
      font-size: 45px;
-     font-family: 'Neuton';
+     font-family: 'Lato';
      letter-spacing: 1px;*/
     
 }
 .titulo2{
-  padding-left: 178px; 
-  padding-top: 20px;  
+  padding-left:0px; 
+  padding-top: 0px;  
 }
 
 .contenido2{
-      padding-left: 170px;
+      padding-left:0px;
      /*background-color: red;*/
-     width: 90%;
-     height: 500px;
+     width: 100%;
+     height: 420px;
      display: flex;
      float: left;
+     justify-content: center;
     
 }
 
@@ -326,7 +344,8 @@ line-height: 25px;
 
 .parrafos{
      width: 30%;
-     /*background-color: yellow;*/
+     height: 380px;
+     /*background-color: #F1FFBA;*/
      display: flex;
      float:right;
      padding-top: 20px;
@@ -337,18 +356,157 @@ line-height: 25px;
 
 .fichadatos{
      width: 30%;
-     /*background-color: yellow;*/
+     /*background-color: #F1FFBA;*/
      display: flex;
      float:right;
      padding-top: 20px;
-     padding-left: 90px;
+     padding-left: 45px;
      padding-right: 45px;
      padding-bottom: 20px;
-     flex-direction: column;
+     
 }
 
 .fichadatos p{
      font-size: 14px;
      font-family: 'Lato';
      line-height: 25px;
+}
+.datos{
+     width: 100%;
+     /*background-color: #FFCBBA;*/
+}
+
+.primertitulo{
+     /*background-color: #FFE3A6;*/
+     margin-left: 14%;
+}
+.tituloficha{
+     /*background-color: red;*/
+     margin-left: 14%;
+}
+.textodescripcion{
+     /*background-color: #FFE3A6;*/
+     margin-left: 14%;
+     padding-top: 20px;
+}
+
+.textodescripcion p{
+   line-height: 50px;  
+}
+
+/* Add the following CSS block to your own
+stylesheet. */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-heart {
+  color: #000;
+  
+  font-size: 20px;
+
+}
+
+body {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #555;
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-location {
+  color: #000;
+  
+  font-size: 20px;
+ 
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-clock {
+  color: #000;
+  
+  font-size: 20px;
+
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-calendar-full {
+  color: #000;
+ 
+  font-size: 20px;
+
+}
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-users {
+  color: #000;
+
+  font-size: 20px;
+
+}
+
+.tituloficha{
+     left: 100px;
+}
+
+.gradiente{
+     width: 100%;
+     height: 300px;
+  /*background: red;*/
+  display: flex; /* For browsers that do not support gradients */
+  align-self: flex-end;
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+
+}
+.colaboradores{
+     font-size: 14px;
+     font-family: 'Lato';
+}
+
+.duración{
+     font-size: 14px;
+     font-family: 'Lato';
+}
+.lugar{
+     font-size: 14px;
+     font-family: 'Lato';
+}
+.Año{
+     font-size: 14px;
+     font-family: 'Lato';
 }
