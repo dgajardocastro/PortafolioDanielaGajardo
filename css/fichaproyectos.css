@@ -70,31 +70,34 @@ hr {
 
 /* Fin de reseteo navegador*/ 
 
+a  {   
+ text-decoration:none;
+     color:#999;   
+}   
+p{
+     font-size: 13px;
+     font-family: 'Lato';
+     font-weight: lighter;
+     line-height: 20px;
+     margin-bottom: 7px;
+     letter-spacing: 0.7px;
+}
 .Container{
 	margin-top: 20px;
 	width: 100%;
-	height: 1700px;
+
 	/*background-color:#AAE0F2;*/
      
 
 }
 
+.logo a{
+     color:#000;
+}
 .Encabezado{
      margin-bottom: 30px;
 }
 
-.logo{
-     /*background-color: #F2F59D;*/
-     width: 200px;
-     height: 50px;
-     margin-left: 14%;
-    
-}
-
-.logo h1{
-     font-size: 25px;
-     font-family: 'Neuton';
-}
 .barramenu{
      width: 100%;
      height: 70px;
@@ -103,18 +106,22 @@ hr {
      flex-direction: row;
      justify-content: space-between;
 
+
      
 }
-.bajada{
-     /*background-color: #53FCB6;*/
-     height: 50px;
-     margin-top: 10px;
-     margin-bottom: 10px;
 
-
-
+.logo{
+     /*background-color: #F2F59D;*/
+     width: 200px;
+     height: 40px;
+     margin-left: 14%;
+    
 }
 
+.logo h1{
+     font-size: 30px;
+     font-family: 'Neuton';
+}
 .menu {
      display: flex;
      flex-direction: row;
@@ -145,6 +152,17 @@ hr {
     color:#000;
     
 }
+.bajada{
+     /*background-color: #53FCB6;*/
+     height: 50px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+
+
+}
+
+
 .Expo{
 
      width: 110px;
@@ -153,21 +171,24 @@ hr {
      float: left;
      margin-right: 0.6%;
      color: #DCDCDC;
+     letter-spacing: 1px;
 }
 .Editorial{
-     width: 100px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-}
-
-.Interacción{
      width: 110px;
      height: 40px;
      /*background-color:#FCD8CC;*/
      float: left;
      margin-right: 0.6%;
+     letter-spacing: 1px;
+}
+
+.Interacción{
+     width: 140px;
+     height: 40px;
+     /*background-color:#FCD8CC;*/
+     float: left;
+     margin-right: 0.6%;
+     letter-spacing: 1px;
 
 }
 .Investigación{
@@ -176,9 +197,10 @@ hr {
      /*background-color:#FCD8CC;*/
      float: left;
      margin-right: 0.6%;
+     letter-spacing: 1px;
 }
 .Perfil{
-     width: 150px;
+     width: 200px;
      height: 40px;
      /*background-color:#FCD8CC;*/
      float: left;
@@ -257,10 +279,10 @@ hr {
      float: left;
 }
 
-.Descripcionproyecto p{
-     font-size: 45px;
-     font-family: 'Lato';
-     letter-spacing: 1px;
+.Descripcionproyecto h3{
+     font-size: 40px;
+     font-family: 'Raleway';
+     letter-spacing: 4px;
      line-height: 50px;
 }
 .parrafodescripción1{
@@ -268,6 +290,7 @@ hr {
      height: 200px;
      /*background-color: #EDBAFF;*/
      display: flex;
+     flex-direction: column;
      float:right;
      padding-top: 0px;
      padding-left:0px;
@@ -305,17 +328,18 @@ hr {
 
 .titulo h2{
      font-size: 45px;
-     font-family: 'Lato';
-     letter-spacing:1px;
+     font-family: 'Raleway';
+     letter-spacing:4px;
+     font-weight: bold;
 }
 .titulo{
      padding-left: 0px;
      width: 100%;
 }
-.titulo2 p{
-     font-size: 45px;
-     font-family: 'Lato';
-     letter-spacing: 1px;*/
+.titulo2 h3{
+     font-size: 40px;
+     font-family: 'Raleway';
+     letter-spacing: 4px;
     
 }
 .titulo2{
@@ -334,13 +358,13 @@ hr {
     
 }
 
-.parrafodescripción1 p{
+/*.parrafodescripción1 p{
 font-size: 14px;
 font-family: 'Lato';
 line-height: 25px;
 
 }
-
+*/
 
 .parrafos{
      width: 30%;
@@ -366,14 +390,17 @@ line-height: 25px;
      
 }
 
-.fichadatos p{
+/*.fichadatos p{
      font-size: 14px;
      font-family: 'Lato';
      line-height: 25px;
-}
+}*/
 .datos{
      width: 100%;
      /*background-color: #FFCBBA;*/
+     display: flex;
+     flex-direction: column;
+
 }
 
 .primertitulo{
@@ -390,92 +417,11 @@ line-height: 25px;
      padding-top: 20px;
 }
 
-.textodescripcion p{
+/*.textodescripcion p{
    line-height: 50px;  
-}
+}*/
 
-/* Add the following CSS block to your own
-stylesheet. */
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
 
-.lnr-heart {
-  color: #000;
-  
-  font-size: 20px;
-
-}
-
-body {
-  font-size: 40px;
-  font-family: sans-serif;
-  color: #555;
-}
-
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr-location {
-  color: #000;
-  
-  font-size: 20px;
- 
-}
-
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr-clock {
-  color: #000;
-  
-  font-size: 20px;
-
-}
-
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr-calendar-full {
-  color: #000;
- 
-  font-size: 20px;
-
-}
-
-.lnr {
-  display: inline-block;
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.05em;
-}
-
-.lnr-users {
-  color: #000;
-
-  font-size: 20px;
-
-}
 
 .tituloficha{
      left: 100px;
@@ -493,20 +439,62 @@ body {
   background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
 
 }
-.colaboradores{
-     font-size: 14px;
-     font-family: 'Lato';
+
+.tituloficha h3{
+     font-family: 'Raleway'
+     font-size:30px;
 }
 
-.duración{
-     font-size: 14px;
-     font-family: 'Lato';
+footer{
+     padding-top: 40px;
+     width: 100%;
+     height: 200px;
+     background: #F0F8FF;
+     border-top: 2px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
 }
-.lugar{
-     font-size: 14px;
-     font-family: 'Lato';
+
+
+.proyectosfooter{
+     width: 200px;
+     height: 150px;
+     /*background-color:yellow;*/
+     float: left;
+     margin-right: 0.6%;
+     letter-spacing: 2px;
+     justify-content: center;
 }
-.Año{
-     font-size: 14px;
+
+footer a:hover { 
+    color:#000;
+    
+}
+
+
+footer p{
+     font-size: 13px;
      font-family: 'Lato';
+     margin-bottom: 7px;
+     line-height: 17px;
+
+}
+
+.titulo1{
+     width: 250px;
+     height: 30px;
+     /*background-color: red;*/
+     display: flex;
+     float:center;
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+
+}
+.titulo1 p{
+     font-weight: bold;
+}
+.proyectosfooter p{
+     letter-spacing: 1px;
+
 }
