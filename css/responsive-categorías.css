@@ -1,0 +1,333 @@
+@media only screen and (orientation: portrait){
+ 
+
+
+.container{
+	margin-top: 20px;
+	width: 100%;
+	height: 700px;
+	/*background-color:#AAE0F2;*/
+}
+
+.descripcion_categoria{
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+
+.logo{
+	background-color: #F2F59D;
+	width: 200px;
+	height: 50px;
+	padding-left: 20px;
+	
+}
+.logo a{
+	color:#000;
+}
+
+.barra{
+	width: 70%;
+	height: 250px;
+	/*background-color:#53FCB6;*/
+}
+
+.logo{
+     /*background-color: #F2F59D;*/
+     width: 200px;
+     height: 40px;
+     margin-left: 70%;
+     display: flex;
+    
+}
+
+.logo h1{
+     font-size: 30px;
+     font-family: 'Neuton';
+}
+/*h1{
+	font-family: 'Neuton', cursive;
+	text-align: center;
+	font-size: 30px;
+}*/
+.barramenu{
+     width: 100%;
+     height: 70px;
+     background-color:blue;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+
+     
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 50px;
+	/*background-color: red;*/
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-right: 5%;
+   
+    }
+
+
+.menu p{
+ 
+    float:right;
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    font-weight:lighter;
+    text-align:right;
+    text-shadow: 0px 1px 0px #FFF;
+    color: #999;
+    
+    padding:10px;
+    text-decoration:none;
+
+  
+}
+
+.menu a:hover { 
+    color:#000;
+    
+}
+.Expo{
+
+	width: 110px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	color: #DCDCDC;
+	letter-spacing: 2px;
+}
+.Editorial{
+	width: 100px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+}
+
+.Interacción{
+	width: 130px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+
+}
+.Investigación{
+	width: 150px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+}
+.Perfil{
+	width: 150px;
+	height: 40px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+}
+h4{
+	font-family: 'Raleway'; 
+	font-size:45px;
+	padding-left: 20px;
+	padding-bottom: 8px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+
+.bajada{
+	width: 50%;
+	height: 70px;
+	line-height: 20px;
+	letter-spacing: 0.3px;
+	/*background-color: red;*/
+}
+.bajada p{
+	font-family: 'Lato';
+	font-weight: lighter;
+	padding-left: 20px;
+	font-size: 17px;
+	/*color: #DCDCDC;*/
+}
+
+.fotos{
+	width: 100%;
+	height: 600px;
+
+	/*background-color: red;*/
+	
+}
+
+.omegacubix{
+	width: 50%;
+	height: 600px;
+	background: url("../img/omegacubix.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+}
+
+.diafanoemergente{
+	width: 50%;
+	height: 600px;
+	background: url("../img/maqueta2-tamañoreal.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+}
+
+
+.señalética{
+	width: 50%;
+	height: 600px;
+	background: url("../img/portadacm.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 1 ;
+}
+
+.teselas{
+	width: 50%;
+	height: 600px;
+	background: url("../img/manto-c-teselas-01.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+}
+.dibujotramas{
+	width: 50%;
+	height: 600px;
+	background: url("../img/hospederia.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+}
+.tramas{
+	width: 50%;
+	height: 600px;
+	background: url("../img/tramas-1.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+}
+
+
+.gradiente{
+	width: 100%;
+	height: 300px;
+  background: red;
+  display: flex; /* For browsers that do not support gradients */
+  align-self: flex-end;
+  background: -webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+
+}
+
+
+.tituloscategoria1{
+	width: 100%;
+	font-family: 'Raleway';
+	font-weight: medium;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	align-self: flex-end;
+	margin-bottom: 30px;
+}
+footer{
+	padding-top: 40px;
+	width: 100%;
+	height: 200px;
+	background: #F0F8FF;
+	border-top: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.proyectosfooter{
+	width: 200px;
+	height: 150px;
+	/*background-color:yellow;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+	justify-content: center;
+}
+
+footer a:hover { 
+    color:#000;
+    
+}
+
+
+footer p{
+	font-size: 14px;
+	font-family: 'Lato';
+	margin-bottom: 7px;
+	line-height: 17px;
+
+}
+
+.titulo1{
+	width: 250px;
+	height: 30px;
+	/*background-color: red;*/
+	display: flex;
+	float:center;
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+
+
+}
+.titulo1 p{
+	font-weight: bold;
+}
+.proyectosfooter p{
+	letter-spacing: 1px;
+
+}
+
+}
+
+
