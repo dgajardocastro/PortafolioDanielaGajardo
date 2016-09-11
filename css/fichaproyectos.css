@@ -75,7 +75,7 @@ a  {
      color:#999;   
 }   
 p{
-     font-size: 13px;
+     font-size: 14px;
      font-family: 'Lato';
      font-weight: lighter;
      line-height: 20px;
@@ -85,6 +85,9 @@ p{
 .Container{
 	margin-top: 20px;
 	width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
 
 	/*background-color:#AAE0F2;*/
      
@@ -125,7 +128,7 @@ p{
 .menu {
      display: flex;
      flex-direction: row;
-     width: 50%;
+     width: 51%;
      height: 50px;
      /*background-color: red;*/
     justify-content: flex-end;
@@ -144,6 +147,7 @@ p{
     
     padding:10px;
     text-decoration:none;
+    letter-spacing: 2px;
 
   
 }
@@ -165,7 +169,7 @@ p{
 
 .Expo{
 
-     width: 110px;
+     width: 120px;
      height: 40px;
      /*background-color:#FCD8CC;*/
      float: left;
@@ -192,7 +196,7 @@ p{
 
 }
 .Investigación{
-     width: 130px;
+     width: 160px;
      height: 40px;
      /*background-color:#FCD8CC;*/
      float: left;
@@ -210,9 +214,11 @@ p{
 
 .titulo{
      width: 90%;
-     height: 60px;
-    /*background-color: #FFCBBA;*/
+     height: 100px;
+     /*background-color: #FFCBBA;*/
      display: flex;
+     flex-direction: column;
+     justify-content: center;
 
 
 }
@@ -249,10 +255,12 @@ p{
 
 }
 
-.primerafoto{
-      width: 100%;
-     height: 780px;
-     background:url("../img/Omegacubix01.jpg");
+
+
+.fotoperfil{
+      width: 35%;
+     height: 500px;
+     background:url("../img/perfil-dgc.jpg");
       -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -260,7 +268,7 @@ p{
    float: left;
    display: flex;
    justify-content: center;
-  /*background-color: yellow;*/
+
 }
 
 .titulo2{
@@ -454,6 +462,7 @@ footer{
      display: flex;
      flex-direction: row;
      justify-content: center;
+     margin-top: 50px;
 }
 
 
