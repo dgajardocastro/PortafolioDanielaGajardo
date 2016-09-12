@@ -42,11 +42,33 @@ p{
      
 }
 
+
+.logo{
+	/*background-color: #F2F59D;*/
+	width: 100%;
+	height: 50px;
+	padding-left: 0px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	
+}
+.logo a{
+	color:#000;
+}
+
+.barra{
+	width: 70%;
+	height: 250px;
+	/*background-color:#53FCB6;*/
+}
+
 .logo{
      /*background-color: #F2F59D;*/
-     width: 200px;
+     width:200%;
      height: 40px;
-     margin-left: 14%;
+     margin-left: 0%;
+     display: flex;
     
 }
 
@@ -54,92 +76,113 @@ p{
      font-size: 30px;
      font-family: 'Neuton';
 }
-.menu {
+/*h1{
+	font-family: 'Neuton', cursive;
+	text-align: center;
+	font-size: 30px;
+}*/
+.barramenu{
+     width: 100%;
+     height: 50px;
+     /*background-color:blue;*/
      display: flex;
      flex-direction: row;
-     width: 51%;
-     height: 50px;
-     /*background-color: red;*/
-    justify-content: flex-end;
-    margin-right: 5%;
+     justify-content: space-between;
+     align-items: flex-start;
+
+     
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	height: 250px;
+	/*background-color: red;*/
+    justify-content: center;
+    align-self: center;
+    margin-right: 0%;
+    position: absolute;
+    top:1201px;
+
     }
+
 
 .menu p{
  
     float:right;
     font-family: 'Raleway', sans-serif;
-    font-size:14px;
+    font-size:13px;
     font-weight:lighter;
-    text-align:center;
+    text-align:right;
     text-shadow: 0px 1px 0px #FFF;
-    color: #00000;
+    color: #999;
     
     padding:10px;
     text-decoration:none;
-    letter-spacing: 2px;
 
   
 }
 
-.menu a:hover { 
-    color:#000;
-    
-}
-.bajada{
-     /*background-color: #53FCB6;*/
-     height: 50px;
-     margin-top: 10px;
-     margin-bottom: 10px;
-
-
-
-}
-
-
 .Expo{
 
-     width: 120px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-     color: #DCDCDC;
-     letter-spacing: 1px;
+	width: 110px;
+	height: 35px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	color: #DCDCDC;
+	letter-spacing: 2px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 }
 .Editorial{
-     width: 110px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-     letter-spacing: 1px;
+	width: 100px;
+	height: 35px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 }
 
 .Interacción{
-     width: 140px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-     letter-spacing: 1px;
+	width: 130px;
+	height: 35px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 
 }
 .Investigación{
-     width: 160px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-     letter-spacing: 1px;
+	width: 150px;
+	height: 35px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 }
 .Perfil{
-     width: 200px;
-     height: 40px;
-     /*background-color:#FCD8CC;*/
-     float: left;
-     margin-right: 0.6%;
-
+	width: 150px;
+	height: 35px;
+	/*background-color:#FCD8CC;*/
+	float: left;
+	margin-right: 0.6%;
+	letter-spacing: 2px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 }
+
 
 .titulo{
      width: 90%;
@@ -209,23 +252,26 @@ p{
      margin-top: 30px;
 }
 .Descripcionproyecto{
-    /* background-color: #CCFFBA;*/
-     width: 100%;
-     height: 100px;
+    background-color: #CCFFBA;
+     width: 0%;
+     height: 0px;
      display: flex;
      float: left;
+     align-content: center;
+     justify-content: center;
+     position: relative;
 }
 
 .Descripcionproyecto h3{
-     font-size: 40px;
+     font-size: 25px;
      font-family: 'Raleway';
      letter-spacing: 4px;
      line-height: 50px;
 }
 .parrafodescripción1{
      width: 100%;
-     height: 200px;
-     /*background-color: #EDBAFF;*/
+     height: 180px;
+     background-color: #EDBAFF;
      display: flex;
      flex-direction: column;
      float:right;
@@ -233,6 +279,8 @@ p{
      padding-left:0px;
      padding-right:0px;
      padding-bottom:0px;
+     align-self: center;
+     justify-content: center;
 }
 
 
@@ -251,8 +299,8 @@ p{
 }
 
 .foto2{
-     width: 100%;
-     height: 1200%;
+     width: 0%;
+     height: 0px;
      background: url("../img/Omegacubix02.jpg")  repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -260,11 +308,17 @@ p{
    background-size: cover;
    float: left;
    display: flex;
+   align-self: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   top:350px;
+
 
 }
 
 .titulo h2{
-     font-size: 45px;
+     font-size: 35px;
      font-family: 'Raleway';
      letter-spacing:4px;
      font-weight: bold;
@@ -274,7 +328,7 @@ p{
      width: 100%;
 }
 .titulo2 h3{
-     font-size: 40px;
+     font-size: 35px;
      font-family: 'Raleway';
      letter-spacing: 4px;
     
@@ -286,13 +340,15 @@ p{
 
 .contenido2{
       padding-left:0px;
-     /*background-color: red;*/
+     background-color: red;
      width: 100%;
-     height: 420px;
+     height: 100px;
      display: flex;
      float: left;
      justify-content: center;
     flex-direction: column;
+    align-self: center;
+    position: relative;
 }
 
 /*.parrafodescripción1 p{
@@ -316,14 +372,20 @@ line-height: 25px;
 }
 
 .fichadatos{
-     width: 100%;
-     /*background-color: #F1FFBA;*/
+     width: 90%;
+     height: 400px;
+     background-color: #F1FFBA;
      display: flex;
      float:right;
-     padding-top: 10px;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-bottom: 20px;
+     padding-top: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+     padding-bottom: 0px;
+     justify-content: center;
+     align-self: center;
+     position: absolute;
+     top: 350px;
+     flex-direction: column;
 
      
 }
@@ -335,9 +397,10 @@ line-height: 25px;
 }*/
 .datos{
      width: 100%;
-     /*background-color: #FFCBBA;*/
+     background-color: #FFCBBA;
      display: flex;
      flex-direction: column;
+
 
 }
 
