@@ -306,6 +306,7 @@ p{
      padding-bottom:0px;
 }
 
+/*OMEGA CUBIX*/
 
 .foto1{
      width: 35%;
@@ -333,6 +334,80 @@ p{
    display: flex;
 
 }
+
+/*SEÑALETICA*/
+
+.foto1{
+     width: 35%;
+     height: 420px;
+     background: url("../img/señaletica01.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+
+}
+
+.foto2{
+     width: 35%;
+     height: 420px;
+     background: url("../img/señaletica02.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+
+}
+
+/*DIAFANO*/
+
+.foto1{
+     width: 35%;
+     height: 420px;
+     background: url("../img/diafano02.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+
+}
+
+.foto2{
+     width: 35%;
+     height: 420px;
+     background: url("../img/diafano01.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .titulo h2{
      font-size: 45px;
