@@ -320,6 +320,31 @@ h4{
    order: 2;
 }
 
+.edicion01{
+	width: 50%;
+	height: 600px;
+	background: url("../img/edicion01.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+}
+
+.cartas{
+	width: 50%;
+	height: 600px;
+	background: url("../img/tramas-1.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+}
 
 .gradiente{
 	width: 100%;
