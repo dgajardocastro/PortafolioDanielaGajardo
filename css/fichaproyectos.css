@@ -337,7 +337,7 @@ p{
 
 /*SEÑALETICA*/
 
-.foto1{
+.foto3{
      width: 35%;
      height: 420px;
      background: url("../img/señaletica01.jpg")  repeat-x left top;
@@ -351,7 +351,7 @@ p{
 
 }
 
-.foto2{
+.foto4{
      width: 35%;
      height: 420px;
      background: url("../img/señaletica02.jpg")  repeat-x left top;
@@ -367,7 +367,7 @@ p{
 
 /*DIAFANO*/
 
-.foto1{
+.diafano1{
      width: 35%;
      height: 420px;
      background: url("../img/diafano02.jpg")  repeat-x left top;
@@ -381,7 +381,7 @@ p{
 
 }
 
-.foto2{
+.diafano2{
      width: 35%;
      height: 420px;
      background: url("../img/diafano01.jpg")  repeat-x left top;
@@ -396,7 +396,7 @@ p{
 }
 /*TESELAS*/
 
-.foto1{
+.teselas1{
      width: 35%;
      height: 420px;
      background: url("../img/teselas2.jpg")  repeat-x left top;
@@ -410,7 +410,7 @@ p{
 
 }
 
-.foto2{
+.teselas2{
      width: 35%;
      height: 420px;
      background: url("../img/teselas01.jpg")  repeat-x left top;
@@ -426,10 +426,10 @@ p{
 
 /*CARTAS PHALENE*/
 
-.foto1{
+.cartas1{
      width: 35%;
      height: 420px;
-     background: url("../img/teselas2.jpg")  repeat-x left top;
+     background: url("../img/pajaras01.jpg")  repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
