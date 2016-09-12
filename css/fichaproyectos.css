@@ -440,7 +440,19 @@ p{
 
 }
 
+.cartas2{
+     width: 35%;
+     height: 470px;
+     background: url("../img/america01.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
 
+
+}
 
 
 
