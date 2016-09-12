@@ -454,6 +454,22 @@ p{
 
 }
 
+/*INVESTIGACIÓN*/
+
+
+.pdf{
+     width: 35%;
+     height: 420px;
+     background: url("")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+
+}
 
 
 
@@ -498,6 +514,23 @@ p{
     
 }
 
+.contenido3{
+      padding-left:0px;
+     /*background-color: red;*/
+     width: 100%;
+     height: 420px;
+     display: flex;
+     float: left;
+     justify-content: center;
+    
+}
+
+.pdf{
+     width: 35%;
+     display: flex;
+     justify-content: center;
+     align-self: center;
+}
 /*.parrafodescripción1 p{
 font-size: 14px;
 font-family: 'Lato';
