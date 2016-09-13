@@ -224,35 +224,35 @@ h4{
 }
 
 
-.señalética{
-	width: 50%;
-	height: 600px;
-	background: url("../img/portadacm.jpg") repeat-x left top;
+.señal{
+	width: 100%;
+	height: 400px;
+	background: url("../img/señaletica01.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    float: right;
    display: flex;
-   order: 1 ;
+   
 }
 
-.teselas{
-	width: 50%;
-	height: 600px;
-	background: url("../img/manto-c-teselas-01.jpg") repeat-x left top;
+.teselar{
+	width: 100%;
+	height: 400px;
+	background: url("../img/teselas2.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    float: right;
    display: flex;
-   order: 2;
+
 }
 .dibujotramas{
-	width: 50%;
-	height: 600px;
-	background: url("../img/hospederia.jpg") repeat-x left top;
+	width: 100%;
+	height: 400px;
+	background: url("../img/xilografia.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -262,8 +262,8 @@ h4{
    order: 2;
 }
 .tramas{
-	width: 50%;
-	height: 600px;
+	width: 100%;
+	height: 400px;
 	background: url("../img/tramas-1.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -274,6 +274,33 @@ h4{
    order: 2;
 }
 
+.edicion01{
+	width: 100%;
+	height: 400px;
+	background: url("../img/edicion01.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+
+}
+
+.cartas{
+	width: 100%;
+	height: 400px;
+	background: url("../img/pajaras01.jpg") repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: right;
+   display: flex;
+   order: 2;
+
+}
 
 .gradiente{
 	width: 100%;
