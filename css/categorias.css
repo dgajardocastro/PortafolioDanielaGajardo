@@ -286,7 +286,7 @@ h4{
 .teselas{
 	width: 50%;
 	height: 600px;
-	background: url("../img/manto-c-teselas-01.jpg") repeat-x left top;
+	background: url("img/manto-c-teselas-01.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
