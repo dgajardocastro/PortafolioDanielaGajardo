@@ -286,7 +286,7 @@ h4{
 .teselar{
 	width: 50%;
 	height: 600px;
-	background: url("../img/manto-c-teselas-01.jpg") repeat-x left top;
+	background: url("../img/teselas2.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -295,6 +295,7 @@ h4{
    display: flex;
  
 }
+
 .dibujotramas{
 	width: 50%;
 	height: 600px;
