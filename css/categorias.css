@@ -270,7 +270,7 @@ h4{
 }
 
 
-.señalética{
+.señal{
 	width: 50%;
 	height: 600px;
 	background: url("../img/portadacm.jpg") repeat-x left top;
@@ -280,20 +280,20 @@ h4{
    background-size: cover;
    float: right;
    display: flex;
-   order: 1 ;
+   
 }
 
 .teselas{
 	width: 50%;
 	height: 600px;
-	background: url("img/manto-c-teselas-01.jpg") repeat-x left top;
+	background: url("../img/manto-c-teselas-01.jpg") repeat-x left top;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    float: right;
    display: flex;
-   order: 2;
+ 
 }
 .dibujotramas{
 	width: 50%;
