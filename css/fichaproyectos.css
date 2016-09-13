@@ -485,6 +485,22 @@ p{
 
 }
 
+/*RASGO*/
+
+.fotorasgo{
+   width: 35%;
+     height: 420px;
+     background: url("../img/edicion01.jpg")  repeat-x left top;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   float: left;
+   display: flex;
+
+}
+
+
 
 
 
